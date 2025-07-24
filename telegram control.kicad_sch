@@ -2949,6 +2949,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1504a14a-6104-4ac9-9c23-bcc7841bdbe2")
+	)
+	(wire
+		(pts
 			(xy 218.44 72.39) (xy 218.44 66.04)
 		)
 		(stroke
@@ -3217,9 +3227,9 @@
 		)
 		(uuid "fe645bf4-4dee-4cb5-a229-4bdc3d525f21")
 	)
-	(global_label "gpio0"
+	(global_label "gpio1"
 		(shape input)
-		(at 134.62 67.31 180)
+		(at 134.62 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3229,7 +3239,7 @@
 		)
 		(uuid "a0499e4e-5d57-4a2a-ba0e-55d9762e2132")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.3735 67.31 0)
+			(at 126.3735 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3249,7 @@
 			)
 		)
 	)
-	(global_label "gpio0"
+	(global_label "gpio1"
 		(shape input)
 		(at 217.17 80.01 180)
 		(fields_autoplaced yes)
@@ -3867,7 +3877,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 69.85 90)
+		(at 130.81 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3876,7 +3886,7 @@
 		(fields_autoplaced yes)
 		(uuid "440284de-9128-47f7-b2a8-7afe4d3da8e7")
 		(property "Reference" "R2"
-			(at 130.81 63.5 90)
+			(at 130.81 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3894,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 130.81 66.04 90)
+			(at 130.81 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +3902,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 130.81 71.628 90)
+			(at 130.81 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 69.85 0)
+			(at 130.81 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +3920,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 69.85 0)
+			(at 130.81 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +4085,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 77.47 0)
+		(at 123.19 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4084,7 +4094,7 @@
 		(fields_autoplaced yes)
 		(uuid "59971230-12d3-45ca-8bb6-a7b2ed7600db")
 		(property "Reference" "#PWR03"
-			(at 127 83.82 0)
+			(at 123.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +4103,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 82.55 0)
+			(at 123.19 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +4111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 77.47 0)
+			(at 123.19 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,7 +4120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 77.47 0)
+			(at 123.19 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +4129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 77.47 0)
+			(at 123.19 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4217,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 127 73.66 90)
+		(at 123.19 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4216,7 +4226,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e544940-7fc7-4dba-b20d-59f30ecaae4c")
 		(property "Reference" "D2"
-			(at 130.81 73.9774 90)
+			(at 127 71.4374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4235,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 130.81 76.5174 90)
+			(at 127 73.9774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4244,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 127 73.66 0)
+			(at 123.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 73.66 0)
+			(at 123.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +4262,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 127 73.66 0)
+			(at 123.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4271,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 127 73.66 0)
+			(at 123.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
